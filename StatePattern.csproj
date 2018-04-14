@@ -42,8 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IState.cs" />
+    <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpielStatus\SpielAktualisiert.cs" />
+    <Compile Include="SpielStatus\SpielDeinstalliert.cs" />
+    <Compile Include="SpielStatus\SpielGekauft.cs" />
+    <Compile Include="SpielStatus\SpielNichtGekauft.cs" />
+    <Compile Include="SpielStatus\SpielGestartet.cs" />
+    <Compile Include="SpielStatus\SpielHeruntergeladen.cs" />
+    <Compile Include="SpielStatus\SpielInstalliert.cs" />
+    <Compile Include="SpielStatus\SpielVerliehen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
